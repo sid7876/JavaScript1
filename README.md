@@ -1,2 +1,2 @@
-# JavaScript1
-This is JavaScript Best Practices by Hitesh Chaudhary In Chai aur Code 
+# Javascript-Learning-
+This is Javascript Learning File.
