@@ -5,7 +5,7 @@
 
 console.log(3
     +
-    3) // code readibilty that should be kept high on development learning.
+    3) // code readibilty that should be kept high on development Process.
 
 console.log("Siddhesh")
 
@@ -25,3 +25,5 @@ let isLoggedIn = false // data type boolean
 //object.
 
 console.log("Type of name is: " + typeof name);
+console.log("Type of null is: " + typeof null);
+console.log("Type of undefined is: " + typeof undefined);
