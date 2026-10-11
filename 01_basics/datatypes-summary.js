@@ -31,15 +31,40 @@
 // 2. Array
 // 3. Function. 
 
-const heros = ["shaktiman", "naagraj", "doga"]; // Array
-let myObj = {
-    name: "shaktiman",
-    age: 30,
-    isLoggedIn: true
-}
+// const heros = ["shaktiman", "naagraj", "doga"]; // Array
+// let myObj = {
+//     name: "shaktiman",
+//     age: 30,
+//     isLoggedIn: true
+// }
 
-const myFunction = function() {
-    console.log("Hello World");
-}
+// const myFunction = function() {
+//     console.log("Hello World");
+// }
 
-console.log(typeof myFunction); // function
+// console.log(typeof myFunction); // function
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// # Stack Memory vs Heap Memory in JavaScript
+// primitive (store in stack memory) vs reference (store in heap memory) data types
+
+// let myName = "shaktiman"; // stored in stack memory
+// let myName2 = myName; // stored in stack memory   
+// myName2 = "naagraj"; // stored in stack memory
+// console.log(myName) //
+// console.log(myName2)
+
+
+let userOne = {
+    email: "userOne@gmail.com",
+    upiId:"userOne@ybl"
+};
+
+let userTwo = userOne;
+
+userTwo.email = "userTwo@gmail.com";
+
+
+console.log(userOne.email);
+console.log(userTwo.email);
