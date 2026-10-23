@@ -1,0 +1,27 @@
+// let myObj = {
+//   js: "Javascript",
+//   cpp: "C++",
+//   rs: "Ruby",
+//   swift: "Swift by Apple",
+// };
+
+// for (const key in myObj) {
+//   console.log(`${key} shortcut for ${myObj[key]}`);
+// }
+
+// const programming = ['java','cpp','python', "ruby","angular", "react"];
+
+// for (const key in programming) {
+//    console.log(programming[key])   
+// };
+
+// const map = new Map();
+// map.set("IN", "India");
+// map.set("USA", "United States of America");
+// map.set("FR", "France");
+// map.set("RU", "Russia");
+
+// for (const key in map) {
+//     console.log(key)    
+// }
+
